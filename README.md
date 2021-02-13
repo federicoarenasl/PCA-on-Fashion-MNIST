@@ -3,7 +3,7 @@ The full tutorial can be found in this link: https://federicoarenasl.github.io/P
 # Fashion MNIST PCA Tutorial
 In this notebook we will explore the impact of implementing Principal Component Anlysis to an image dataset. For this, we will use the benchmark Fashion MNIST dataset, the link to this dataset can be found [here](https://github.com/zalandoresearch/fashion-mnist/tree/master/data/fashion). Indeed, the images from the dataset are 784-dimensional images. In this small tutorial we seek to explore if we can further compress the dimension of these images without loosing valuable information.
 
-## Fashion MNIST dataset
+## A brief intro
 As described [here](https://github.com/zalandoresearch/fashion-mnist), the dataset contains 60k training examples, and 10k testing examples. Each training example is accomanied with a respective label, which can either be:
 - 0 	T-shirt/top
 - 1 	Trouser
